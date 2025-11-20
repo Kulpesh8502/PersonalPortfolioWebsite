@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kulpesh Meena • Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="logo">KM</div>
+    <nav class="primary-nav" aria-label="Primary">
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle theme">
+      <span class="sun">☀</span>
+      <span class="moon">🌙</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="hero__content">
+        <p class="eyebrow">Electronics & Communication Engineer | Frontend Developer</p>
+        <h1>Hi, I'm <span>Kulpesh Meena</span>.</h1>
+        <p class="lede">
+          I design and engineer human-centered web experiences with performant, accessible, and scalable code.
+          Currently finishing my B.Tech at NIT Silchar and building products that people love to use.
+        </p>
+        <div class="hero__cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="mailto:kulpeshmeena9921@gmail.com">Let's Talk</a>
+        </div>
+        <ul class="quick-stats">
+          <li><strong>2026</strong><span>Graduation</span></li>
+          <li><strong>4+</strong><span>Major Projects</span></li>
+          <li><strong>3</strong><span>Leadership Roles</span></li>
+        </ul>
+      </div>
+      <figure class="hero__media">
+        <div class="hero__frame">
+          <img src="assets/kulpesh.jpg" alt="Kulpesh Meena standing confidently in formal attire" loading="lazy" />
+          <span class="hero__badge">Product-focused</span>
+        </div>
+        <figcaption>
+          <p>Based in Assam, crafting responsive front-end systems that feel premium yet fast.</p>
+          <div class="hero__tags">
+            <span>Portfolio engineer</span>
+            <span>Rail-tech intern</span>
+            <span>Cultural leader</span>
+          </div>
+        </figcaption>
+      </figure>
+      <div class="hero__card">
+        <div class="badge">Currently Open for Internships</div>
+        <div class="hero__card-body">
+          <p class="card-title">Key Focus</p>
+          <ul>
+            <li>Responsive interfaces & micro-interactions</li>
+            <li>Accessible, semantic HTML</li>
+            <li>Performance-first CSS & vanilla JS</li>
+            <li>Human storytelling through design</li>
+          </ul>
+          <div class="contact-grid">
+            <a href="tel:+918502858166">📞 +91 85028 58166</a>
+            <a href="mailto:kulpeshmeena9921@gmail.com">✉️ Email</a>
+            <a href="https://github.com" target="_blank" rel="noreferrer">🐙 GitHub</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">💼 LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">Experience & Education</p>
+        <h2>Proven impact across labs and classrooms</h2>
+        <p>Engineering fire detection systems for Indian Railways while staying on the Dean's list at NIT.</p>
+      </div>
+      <div class="timeline__grid">
+        <article>
+          <header>
+            <span class="tag">Internship · Jun 2025 - Jul 2025</span>
+            <h3>BTC Jodhpur Railway</h3>
+            <p>Fire Detection & Suppression Research</p>
+          </header>
+          <ul>
+            <li>Studied LHB & ICF coaches to design safer railway environments.</li>
+            <li>Built a functional control flow using JS to simulate real-time FDSS alerts.</li>
+            <li>Awarded “Best Summer Intern” by Chairman, BTC Jodhpur.</li>
+          </ul>
+        </article>
+        <article>
+          <header>
+            <span class="tag">B.Tech · Jul 2022 - Jun 2026</span>
+            <h3>NIT Silchar</h3>
+            <p>Electronics and Communication Engineering · CGPA 5.30</p>
+          </header>
+          <ul>
+            <li>Coursework: Data Structures, Algorithms, OOP, Web Development.</li>
+            <li>Led the Rajasthan Cultural Association as Senior Executive.</li>
+            <li>Organized treks with NIT Trekking Club to build resilient teams.</li>
+          </ul>
+        </article>
+        <article>
+          <header>
+            <span class="tag">School · 2018 - 2020</span>
+            <h3>Jyotiba Phule A V M Sr Sec School</h3>
+            <p>Rajasthan Board · 77%</p>
+          </header>
+          <ul>
+            <li>Laid strong analytical foundations with Physics, Chemistry, Mathematics.</li>
+            <li>Volunteered in state-level science exhibitions.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Front-end builds that balance polish and performance</h2>
+      </div>
+      <div class="projects__grid">
+        <article>
+          <div class="project-top">
+            <span class="tag">Personal Portfolio · 2024</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>Responsive personal site with smooth scrolling, animated sections, and live contact form.</p>
+          </div>
+          <ul>
+            <li>Optimized Lighthouse scores for performance, accessibility, and SEO.</li>
+            <li>Implemented SPA-like navigation with vanilla JS intersection observers.</li>
+            <li>Stack: HTML, CSS, JavaScript, GitHub Pages, Git.</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="#" class="secondary">Case Study</a>
+          </div>
+        </article>
+        <article>
+          <div class="project-top">
+            <span class="tag">Client Work · 2024</span>
+            <h3>Rajasthan Cultural Association</h3>
+            <p>Official event website featuring brand-consistent design and fast-loading assets.</p>
+          </div>
+          <ul>
+            <li>Architected information hierarchy for cultural schedules and sponsors.</li>
+            <li>Built contact workflows for event queries and volunteer onboarding.</li>
+            <li>Stack: HTML, CSS, JavaScript, GitHub Pages.</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="#" class="secondary">Website</a>
+          </div>
+        </article>
+        <article>
+          <div class="project-top">
+            <span class="tag">Product Build · 2025</span>
+            <h3>E-Commerce Experience</h3>
+            <p>Feature-complete storefront featuring product listing, search, and cart logic.</p>
+          </div>
+          <ul>
+            <li>Designed interactive UI cards and filterable catalog in vanilla JS.</li>
+            <li>Ensured accessibility with keyboard-friendly components.</li>
+            <li>Stack: HTML, CSS, JavaScript, GitHub Pages.</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="#" class="secondary">Live Demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills & Tools</p>
+        <h2>Full-spectrum front-end toolkit</h2>
+      </div>
+      <div class="skills__grid">
+        <div>
+          <h3>Languages & Frontend</h3>
+          <ul>
+            <li>HTML5 & semantic architecture</li>
+            <li>CSS3, SASS, responsive systems</li>
+            <li>JavaScript (ES6+), DOM-driven UX</li>
+            <li>C/C++ for hardware-proximate logic</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Platforms & Tools</h3>
+          <ul>
+            <li>Windows, Web</li>
+            <li>VS Code, GitHub, Git</li>
+            <li>MATLAB for simulation</li>
+            <li>Figma for rapid UI concepting</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Leadership & stakeholder alignment</li>
+            <li>Time and event management</li>
+            <li>Effective communication</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="leadership" id="leadership">
+      <div class="section-heading">
+        <p class="eyebrow">Positions of responsibility</p>
+        <h2>Leading communities with empathy and precision</h2>
+      </div>
+      <div class="leadership__grid">
+        <article>
+          <header>
+            <span class="tag">2024 - Present</span>
+            <h3>Rajasthan Cultural Association, NIT Silchar</h3>
+            <p>Senior Executive</p>
+          </header>
+          <p>Organized cultural events for 2000+ attendees, managed cross-functional teams, coordinated sponsors, and maintained branding coherence.</p>
+        </article>
+        <article>
+          <header>
+            <span class="tag">2023 - 2026</span>
+            <h3>Trekking Club, NIT Silchar</h3>
+            <p>Volunteer Lead</p>
+          </header>
+          <p>Guided weekend trekking expeditions, coached newcomers on trail safety, and fostered inclusive adventure culture.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Let's collaborate</p>
+        <h2>Tell me about your next project</h2>
+        <p>I respond within 24 hours and love building delightful experiences.</p>
+      </div>
+      <form class="contact-form" name="contact">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Project details
+          <textarea name="message" rows="4" placeholder="What can we build together?" required></textarea>
+        </label>
+        <button type="submit" class="btn primary">Send message</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Kulpesh Meena · Built with semantic HTML, modern CSS, and vanilla JS.</p>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
